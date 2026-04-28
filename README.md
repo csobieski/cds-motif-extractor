@@ -20,7 +20,8 @@ This repository contains a Python script for extracting annotated genomic featur
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-### Example usage using query of DNA sequence:
+
+## Example usage using query of DNA sequence:
 
 python extract_cds_by_motif.py \
   --input-dir "Genome_KP" \
@@ -30,7 +31,7 @@ python extract_cds_by_motif.py \
   --feature-type CDS \
   --padding 400
 
-### Example usage using query of protein sequence:
+## Example usage using query of protein sequence:
 
 python extract_cds_by_motif.py \
   --input-dir "Genome_KP" \
