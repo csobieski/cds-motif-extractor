@@ -1,4 +1,4 @@
-# gff3-feature-motif-extractor
+# sequence-extractor
 
 Python tool to extract genomic features from GFF3 files based on DNA or protein motif matches.
 
